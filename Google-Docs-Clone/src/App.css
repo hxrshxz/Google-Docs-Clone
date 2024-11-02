@@ -1,0 +1,38 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+body {
+  background-color: #f3f6f7;
+}
+
+.container .ql-editor {
+  height: 8.5in;
+  width: 11in;
+  padding: 3rem;
+  margin: 1rem;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+  background-color: white;
+}
+
+.container .ql-container.ql-snow {
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ql-toolbar.ql-snow {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: #f3f6f7;
+
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+}
